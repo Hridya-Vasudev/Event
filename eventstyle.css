@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+section{
+    width: 100%;
+    height: 100vh;
+    background: url('event.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+section .leftBox
+{
+    width: 50%;
+    height: 100%;
+    float: left;
+    padding: 50px;
+    box-sizing: border-box;
+}
+section .leftBox .content
+{
+color: whitesmoke;
+background: rgba(68, 66, 66, 0.5);
+padding: 40px;
+transition: .5s;
+}
+section .leftBox .content:hover
+{
+    background: #a30404;
+}
+section .leftBox .content h1{
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+section .leftBox .content p{
+    margin: 10px 0 0;
+    padding: 0;
+}
+ section .event
+{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background: #000;
+    float: right;
+    box-sizing: border-box;
+}
+section .event ul{
+
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0;
+    box-sizing: border-box;
+    
+    padding: 40px;
+}
+section .event ul li{
+    list-style: none;
+    background: white;
+    box-sizing: border-box;
+    height: 200px;
+}
+section .event ul li .time
+{
+    position: relative;
+    padding: 20px;
+    background: rgba(26, 25, 25, 0.8);
+    box-sizing: border-box;
+    width: 30%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    transition: .5s;
+
+}
+section .event ul li:hover .time
+{
+    background: #a30404;
+}
+section .event ul li .time h2{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: whitesmoke;
+    font-size: 30px;
+    line-height: 30px;
+    
+}
+section .event ul li .time h2 span
+{
+    font-size: 30px;
+}
+section .event ul li .details
+{
+    padding: 20px;
+    background: white;
+    box-sizing: border-box;
+    width: 70%;
+    height: 100%;
+    float: left;
+}
+section .event ul li .details h3{
+    margin: 0;
+    position: relative;
+    padding: 0;
+    font-size: 20px;
+}
+section .event ul li .details p{
+    margin:10px 0 0;
+    position: relative;
+    padding: 0;
+    font-size: 15px;
+}
+section .event ul li .details a{
+    display:inline-block;
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 2px solid #262626;
+    margin-top: 15px;
+    font-size: 13px;
+    transition: .5s;
+    color: black;
+    border-radius: 5px;
+    
+}
+section .event ul li .details a:hover{
+    background: #a30404;
+    color: whitesmoke;
+
+}
